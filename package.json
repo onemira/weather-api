@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "name": "weather-api",
+  "homepage" : "https://weather-api-onemira.netlify.com",
+  "scripts": {
+    "deploy": "netlify deploy --prod --dir=public",
+    "postdeploy": "echo 'Your site was deployed to https://weather-api-onemira.netlify.com'",
+    "start": "browser-sync start --server 'public' --files 'public'"
+  }
+}
