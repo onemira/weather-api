@@ -1,5 +1,7 @@
 :root {
-  font: 16px / 1 sans-serif;
+  font: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
 }
 
 html {
@@ -7,6 +9,26 @@ html {
 }
 
 body {
-  margin: 0;
   min-height: 100%;
+  background: url("image/sky.jpg");
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin: 1rem 15rem;
 }
+
+.container {
+  /* display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin: 1rem 15rem; */
+}
+
+/* .result {
+  margin: 1rem 12rem;
+  padding: 1rem;
+
+} */
